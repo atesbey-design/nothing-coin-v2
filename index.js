@@ -16,7 +16,12 @@ app.listen(port, () => {
 const tweet = async () => {
   try {
     const response = await runChat();
-    await twitterClient.v2.tweet(response);
+    await twitterClient.v2.tweet(`
+    ${response}   \n \n
+    @thenotcoin
+    \n
+    #notcoin
+    `);
     console.log("Tweeted!");
 
   } catch (e) {
