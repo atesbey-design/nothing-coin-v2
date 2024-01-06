@@ -21,6 +21,10 @@ const tweet = async () => {
     @thenotcoin
     \n
     #notcoin
+    \n
+    join now
+    \n
+    https://t.me/notcoin_bot?start=r_574604_1997439   
     `);
     console.log("Tweeted!");
 
