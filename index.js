@@ -10,7 +10,10 @@ const CronJob = require("cron").CronJob;
 
 
 app.listen(port, () => {
+  console.log("Nothing bot is running now");
   console.log(`Listening on port ${port}`)
+
+  
 })
 
 const tweet = async () => {
